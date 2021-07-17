@@ -16,15 +16,15 @@ export class AppComponent implements AfterViewInit {
     { title: 'Leela3', description: 'Leela1 description3' },
   ];
 
-  postsArrayObservable$ = from(this.postsArray);
+  // postsArrayObservable$ = from(this.postsArray);
 
-  promise = new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve('Resolve the promise. sending data');
-    }, 3000);
-  });
+  // promise = new Promise((resolve, reject) => {
+  //   setTimeout(() => {
+  //     resolve('Resolve the promise. sending data');
+  //   }, 3000);
+  // });
 
-  promiseObservable$ = from(this.promise);
+  // promiseObservable$ = from(this.promise);
 
   constructor() {
     // this.postsArrayObservable$.subscribe({
@@ -37,19 +37,18 @@ export class AppComponent implements AfterViewInit {
     //   error: (error) => console.log(error),
     //   complete: () => console.log('complete done! promise done'),
     // });
-    console.log('before function');
-    console.log(functionObs());
-    console.log(functionObs());
-    console.log('after function call');
-
-    console.log('before observable');
-    funcObservable.subscribe((data) => {
-      console.log(data);
-    });
-    funcObservable.subscribe((data) => {
-      console.log(data);
-    });
-    console.log('after observable call');
+    // console.log('before function');
+    // console.log(functionObs());
+    // console.log(functionObs());
+    // console.log('after function call');
+    // console.log('before observable');
+    // funcObservable.subscribe((data) => {
+    //   console.log(data);
+    // });
+    // funcObservable.subscribe((data) => {
+    //   console.log(data);
+    // });
+    // console.log('after observable call');
   }
 
   ngAfterViewInit() {
