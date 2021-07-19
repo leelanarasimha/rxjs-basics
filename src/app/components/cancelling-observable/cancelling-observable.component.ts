@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { interval, Subscription } from 'rxjs';
+import { interval, Observable, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-cancelling-observable',
@@ -7,19 +7,41 @@ import { interval, Subscription } from 'rxjs';
   styleUrls: ['./cancelling-observable.component.css'],
 })
 export class CancellingObservableComponent implements OnInit {
-  timerSubscription!: Subscription;
+  timerConsoleSubscription!: Subscription;
+  timerBrowserSubscription!: Subscription;
+  timers: number[] = [];
   constructor() {}
 
   ngOnInit(): void {
-    const newObservable = interval(1000);
+    const newObservable = new Observable<number>((observer) => {
+      let i = 0;
+      let interval = setInterval(() => {
+        console.log('Interval executing');
+        observer.next(i++);
+        if (i === 6) {
+          //observer.error('un known error occured');
+        }
+      }, 1000);
 
-    this.timerSubscription = newObservable.subscribe((data) => {
+      return () => {
+        console.log('called when observer is unsubscribed');
+        clearInterval(interval);
+      };
+    });
+
+    this.timerConsoleSubscription = newObservable.subscribe((data) => {
       console.log(new Date().toLocaleTimeString() + ' ' + data);
     });
+
+    this.timerBrowserSubscription = newObservable.subscribe((data) => {
+      this.timers.push(data);
+    });
+
+    this.timerConsoleSubscription.add(this.timerBrowserSubscription);
   }
 
   cancelTimer() {
     console.log('cancel the observable');
-    this.timerSubscription.unsubscribe();
+    this.timerConsoleSubscription.unsubscribe();
   }
 }
