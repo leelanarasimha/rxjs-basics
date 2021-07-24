@@ -8,6 +8,7 @@ import { FunctionObservableComponent } from './components/function-observable/fu
 import { CancellingObservableComponent } from './components/cancelling-observable/cancelling-observable.component';
 import { OperatorsBasicsComponent } from './components/operators-basics/operators-basics.component';
 import { OperatorsComponent } from './pages/operators/operators.component';
+import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { OperatorsComponent } from './pages/operators/operators.component';
     FunctionObservableComponent,
     CancellingObservableComponent,
     OperatorsBasicsComponent,
-    OperatorsComponent
+    OperatorsComponent,
+    BufferOperatorComponent
   ],
   imports: [
     BrowserModule,
