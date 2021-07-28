@@ -10,6 +10,7 @@ import { OperatorsBasicsComponent } from './components/operators-basics/operator
 import { OperatorsComponent } from './pages/operators/operators.component';
 import { BufferOperatorComponent } from './pages/buffer-operator/buffer-operator.component';
 import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buffer-count-operator.component';
+import { BufferTimeOperatorComponent } from './pages/buffer-time-operator/buffer-time-operator.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,11 @@ import { BufferCountOperatorComponent } from './pages/buffer-count-operator/buff
     OperatorsBasicsComponent,
     OperatorsComponent,
     BufferOperatorComponent,
-    BufferCountOperatorComponent
+    BufferCountOperatorComponent,
+    BufferTimeOperatorComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
