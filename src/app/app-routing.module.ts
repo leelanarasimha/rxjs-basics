@@ -8,6 +8,7 @@ import { BufferToggleOperatorComponent } from './pages/buffer-toggle-operator/bu
 import { BufferWhenOperatorComponent } from './pages/buffer-when-operator/buffer-when-operator.component';
 import { TakeOperatorComponent } from './pages/take-operator/take-operator.component';
 import { TakeLastOperatorComponent } from './pages/take-last-operator/take-last-operator.component';
+import { TakeUntilOperatorComponent } from './pages/take-until-operator/take-until-operator.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,7 @@ const routes: Routes = [
       { path: 'bufferwhen', component: BufferWhenOperatorComponent },
       { path: 'take', component: TakeOperatorComponent },
       { path: 'takelast', component: TakeLastOperatorComponent },
+      { path: 'takeuntil', component: TakeUntilOperatorComponent },
     ],
   },
 ];
