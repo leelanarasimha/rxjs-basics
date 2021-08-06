@@ -12,6 +12,7 @@ import { TakeUntilOperatorComponent } from './pages/take-until-operator/take-unt
 import { TakeWhileOperatorComponent } from './pages/take-while-operator/take-while-operator.component';
 import { SkipOperatorComponent } from './pages/skip-operator/skip-operator.component';
 import { SkipLastOperatorComponent } from './pages/skip-last-operator/skip-last-operator.component';
+import { SkipUntilOperatorComponent } from './pages/skip-until-operator/skip-until-operator.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,7 @@ const routes: Routes = [
       { path: 'takewhile', component: TakeWhileOperatorComponent },
       { path: 'skip', component: SkipOperatorComponent },
       { path: 'skiplast', component: SkipLastOperatorComponent },
+      { path: 'skipuntil', component: SkipUntilOperatorComponent },
     ],
   },
 ];
