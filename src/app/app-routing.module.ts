@@ -17,6 +17,7 @@ import { SkipWhileOperatorComponent } from './pages/skip-while-operator/skip-whi
 import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-operator.component';
 import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
 import { DistinctUntilKeyChangedComponent } from './pages/distinct-until-key-changed/distinct-until-key-changed.component';
+import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,7 @@ const routes: Routes = [
       { path: 'skipuntil', component: SkipUntilOperatorComponent },
       { path: 'skipwhile', component: SkipWhileOperatorComponent },
       { path: 'distinct', component: DistinctOperatorComponent },
+      { path: 'filter', component: FilterOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
