@@ -24,6 +24,7 @@ import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-op
 import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
 import { DistinctUntilKeyChangedComponent } from './pages/distinct-until-key-changed/distinct-until-key-changed.component';
 import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
+import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { FilterOperatorComponent } from './pages/filter-operator/filter-operator
     DistinctUntilChangedOperatorComponent,
     DistinctUntilKeyChangedComponent,
     FilterOperatorComponent,
+    SampleOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

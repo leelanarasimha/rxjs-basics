@@ -18,6 +18,7 @@ import { DistinctOperatorComponent } from './pages/distinct-operator/distinct-op
 import { DistinctUntilChangedOperatorComponent } from './pages/distinct-until-changed-operator/distinct-until-changed-operator.component';
 import { DistinctUntilKeyChangedComponent } from './pages/distinct-until-key-changed/distinct-until-key-changed.component';
 import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
+import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
 
 const routes: Routes = [
   {
@@ -39,6 +40,7 @@ const routes: Routes = [
       { path: 'skipwhile', component: SkipWhileOperatorComponent },
       { path: 'distinct', component: DistinctOperatorComponent },
       { path: 'filter', component: FilterOperatorComponent },
+      { path: 'sample', component: SampleOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
