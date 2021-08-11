@@ -20,6 +20,7 @@ import { DistinctUntilKeyChangedComponent } from './pages/distinct-until-key-cha
 import { FilterOperatorComponent } from './pages/filter-operator/filter-operator.component';
 import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
 import { AuditOperatorComponent } from './pages/audit-operator/audit-operator.component';
+import { ThrottleOperatorComponent } from './pages/throttle-operator/throttle-operator.component';
 
 const routes: Routes = [
   {
@@ -43,6 +44,7 @@ const routes: Routes = [
       { path: 'filter', component: FilterOperatorComponent },
       { path: 'sample', component: SampleOperatorComponent },
       { path: 'audit', component: AuditOperatorComponent },
+      { path: 'throttle', component: ThrottleOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
