@@ -21,6 +21,7 @@ import { FilterOperatorComponent } from './pages/filter-operator/filter-operator
 import { SampleOperatorComponent } from './pages/sample-operator/sample-operator.component';
 import { AuditOperatorComponent } from './pages/audit-operator/audit-operator.component';
 import { ThrottleOperatorComponent } from './pages/throttle-operator/throttle-operator.component';
+import { FirstOperatorComponent } from './pages/first-operator/first-operator.component';
 
 const routes: Routes = [
   {
@@ -45,6 +46,7 @@ const routes: Routes = [
       { path: 'sample', component: SampleOperatorComponent },
       { path: 'audit', component: AuditOperatorComponent },
       { path: 'throttle', component: ThrottleOperatorComponent },
+      { path: 'first', component: FirstOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
