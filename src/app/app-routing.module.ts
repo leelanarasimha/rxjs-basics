@@ -23,6 +23,7 @@ import { AuditOperatorComponent } from './pages/audit-operator/audit-operator.co
 import { ThrottleOperatorComponent } from './pages/throttle-operator/throttle-operator.component';
 import { FirstOperatorComponent } from './pages/first-operator/first-operator.component';
 import { LastOperatorComponent } from './pages/last-operator/last-operator.component';
+import { DebounceOperatorComponent } from './pages/debounce-operator/debounce-operator.component';
 
 const routes: Routes = [
   {
@@ -49,6 +50,7 @@ const routes: Routes = [
       { path: 'throttle', component: ThrottleOperatorComponent },
       { path: 'first', component: FirstOperatorComponent },
       { path: 'last', component: LastOperatorComponent },
+      { path: 'debounce', component: DebounceOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
