@@ -32,6 +32,7 @@ import { LastOperatorComponent } from './pages/last-operator/last-operator.compo
 import { DebounceOperatorComponent } from './pages/debounce-operator/debounce-operator.component';
 import { ElementAtOperatorComponent } from './pages/element-at-operator/element-at-operator.component';
 import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operator/ignore-elements-operator.component';
+import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operato
     DebounceOperatorComponent,
     ElementAtOperatorComponent,
     IgnoreElementsOperatorComponent,
+    SingleOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

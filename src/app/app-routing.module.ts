@@ -26,6 +26,7 @@ import { LastOperatorComponent } from './pages/last-operator/last-operator.compo
 import { DebounceOperatorComponent } from './pages/debounce-operator/debounce-operator.component';
 import { ElementAtOperatorComponent } from './pages/element-at-operator/element-at-operator.component';
 import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operator/ignore-elements-operator.component';
+import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
 
 const routes: Routes = [
   {
@@ -55,6 +56,7 @@ const routes: Routes = [
       { path: 'debounce', component: DebounceOperatorComponent },
       { path: 'elementat', component: ElementAtOperatorComponent },
       { path: 'ignoreelements', component: IgnoreElementsOperatorComponent },
+      { path: 'single', component: SingleOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
