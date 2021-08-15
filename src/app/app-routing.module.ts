@@ -28,6 +28,7 @@ import { ElementAtOperatorComponent } from './pages/element-at-operator/element-
 import { IgnoreElementsOperatorComponent } from './pages/ignore-elements-operator/ignore-elements-operator.component';
 import { SingleOperatorComponent } from './pages/single-operator/single-operator.component';
 import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
+import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.component';
 
 const routes: Routes = [
   {
@@ -59,6 +60,7 @@ const routes: Routes = [
       { path: 'ignoreelements', component: IgnoreElementsOperatorComponent },
       { path: 'single', component: SingleOperatorComponent },
       { path: 'map', component: MapOperatorComponent },
+      { path: 'mapto', component: MapToOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
