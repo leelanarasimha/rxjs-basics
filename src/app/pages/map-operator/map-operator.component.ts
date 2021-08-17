@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { fromEvent, of } from 'rxjs';
-import { filter, map } from 'rxjs/operators';
+import { ajax } from 'rxjs/ajax';
+import { filter, map, mergeMap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-map-operator',
@@ -29,6 +30,24 @@ export class MapOperatorComponent implements OnInit, AfterViewInit {
     //   )
     //   .subscribe((data) => {
     //     console.log(data);
+    //   });
+    // of(1, 2, 3) //outerobservable
+    //   .pipe(
+    //     mergeMap((value) => {
+    //       return of(value * 10); //inner observable
+    //     })
+    //   )
+    //   .subscribe((data) => {
+    //     console.log(data);
+    //   });
+    // of(1, 2, 3)
+    //   .pipe(
+    //     mergeMap((id) => {
+    //       return ajax(`https://jsonplaceholder.typicode.com/posts/${id}`);
+    //     })
+    //   )
+    //   .subscribe((data) => {
+    //     console.log(data.response);
     //   });
   }
 
