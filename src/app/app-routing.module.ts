@@ -30,6 +30,7 @@ import { SingleOperatorComponent } from './pages/single-operator/single-operator
 import { MapOperatorComponent } from './pages/map-operator/map-operator.component';
 import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.component';
 import { AjaxOperatorComponent } from './pages/ajax-operator/ajax-operator.component';
+import { MergeMapOperatorComponent } from './pages/merge-map-operator/merge-map-operator.component';
 
 const routes: Routes = [
   {
@@ -63,6 +64,7 @@ const routes: Routes = [
       { path: 'map', component: MapOperatorComponent },
       { path: 'mapto', component: MapToOperatorComponent },
       { path: 'ajax', component: AjaxOperatorComponent },
+      { path: 'mergemap', component: MergeMapOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
