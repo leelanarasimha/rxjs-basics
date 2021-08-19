@@ -32,6 +32,7 @@ import { MapToOperatorComponent } from './pages/map-to-operator/map-to-operator.
 import { AjaxOperatorComponent } from './pages/ajax-operator/ajax-operator.component';
 import { MergeMapOperatorComponent } from './pages/merge-map-operator/merge-map-operator.component';
 import { MergeMapToOperatorComponent } from './pages/merge-map-to-operator/merge-map-to-operator.component';
+import { ConcatMapOperatorComponent } from './pages/concat-map-operator/concat-map-operator.component';
 
 const routes: Routes = [
   {
@@ -67,6 +68,7 @@ const routes: Routes = [
       { path: 'ajax', component: AjaxOperatorComponent },
       { path: 'mergemap', component: MergeMapOperatorComponent },
       { path: 'mergemapto', component: MergeMapToOperatorComponent },
+      { path: 'concatmap', component: ConcatMapOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
