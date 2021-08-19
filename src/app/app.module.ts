@@ -39,6 +39,7 @@ import { AjaxOperatorComponent } from './pages/ajax-operator/ajax-operator.compo
 import { MergeMapOperatorComponent } from './pages/merge-map-operator/merge-map-operator.component';
 import { MergeMapToOperatorComponent } from './pages/merge-map-to-operator/merge-map-to-operator.component';
 import { ConcatMapOperatorComponent } from './pages/concat-map-operator/concat-map-operator.component';
+import { ConcatMapToOperatorComponent } from './pages/concat-map-to-operator/concat-map-to-operator.component';
 
 @NgModule({
   declarations: [
@@ -79,6 +80,7 @@ import { ConcatMapOperatorComponent } from './pages/concat-map-operator/concat-m
     MergeMapOperatorComponent,
     MergeMapToOperatorComponent,
     ConcatMapOperatorComponent,
+    ConcatMapToOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
