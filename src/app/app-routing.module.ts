@@ -36,6 +36,7 @@ import { ConcatMapOperatorComponent } from './pages/concat-map-operator/concat-m
 import { ConcatMapToOperatorComponent } from './pages/concat-map-to-operator/concat-map-to-operator.component';
 import { ExhaustMapOperatorComponent } from './pages/exhaust-map-operator/exhaust-map-operator.component';
 import { SwitchMapOperatorComponent } from './pages/switch-map-operator/switch-map-operator.component';
+import { SwitchMapToOperatorComponent } from './pages/switch-map-to-operator/switch-map-to-operator.component';
 
 const routes: Routes = [
   {
@@ -75,6 +76,7 @@ const routes: Routes = [
       { path: 'concatmapto', component: ConcatMapToOperatorComponent },
       { path: 'exhaustmap', component: ExhaustMapOperatorComponent },
       { path: 'switchmap', component: SwitchMapOperatorComponent },
+      { path: 'switchmapto', component: SwitchMapToOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
