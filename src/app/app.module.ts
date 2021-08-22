@@ -43,6 +43,7 @@ import { ConcatMapToOperatorComponent } from './pages/concat-map-to-operator/con
 import { ExhaustMapOperatorComponent } from './pages/exhaust-map-operator/exhaust-map-operator.component';
 import { SwitchMapOperatorComponent } from './pages/switch-map-operator/switch-map-operator.component';
 import { SwitchMapToOperatorComponent } from './pages/switch-map-to-operator/switch-map-to-operator.component';
+import { SubjectComponent } from './pages/subject/subject.component';
 
 @NgModule({
   declarations: [
@@ -87,6 +88,7 @@ import { SwitchMapToOperatorComponent } from './pages/switch-map-to-operator/swi
     ExhaustMapOperatorComponent,
     SwitchMapOperatorComponent,
     SwitchMapToOperatorComponent,
+    SubjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
