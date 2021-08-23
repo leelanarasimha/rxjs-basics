@@ -39,6 +39,7 @@ import { SwitchMapOperatorComponent } from './pages/switch-map-operator/switch-m
 import { SwitchMapToOperatorComponent } from './pages/switch-map-to-operator/switch-map-to-operator.component';
 import { SubjectComponent } from './pages/subject/subject.component';
 import { ColdObservableComponent } from './pages/cold-observable/cold-observable.component';
+import { MulticastOperatorComponent } from './pages/multicast-operator/multicast-operator.component';
 
 const routes: Routes = [
   {
@@ -79,6 +80,7 @@ const routes: Routes = [
       { path: 'exhaustmap', component: ExhaustMapOperatorComponent },
       { path: 'switchmap', component: SwitchMapOperatorComponent },
       { path: 'switchmapto', component: SwitchMapToOperatorComponent },
+      { path: 'multicast', component: MulticastOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
