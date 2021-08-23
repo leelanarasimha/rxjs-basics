@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ajax } from 'rxjs/ajax';
+import { ajax, AjaxResponse } from 'rxjs/ajax';
 import { map } from 'rxjs/operators';
 
 @Component({
@@ -13,7 +13,7 @@ export class AjaxOperatorComponent implements OnInit {
   ngOnInit(): void {
     ajax(`https://jsonplaceholder.typicode.com/posts`)
       .pipe(
-        map((response) => {
+        map((response: AjaxResponse<any>) => {
           return response;
           let data = [];
           for (let post of response.response) {

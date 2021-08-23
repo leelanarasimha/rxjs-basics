@@ -18,7 +18,7 @@ export class ExhaustMapOperatorComponent implements OnInit {
         tap((id) => {
           console.log(id);
         }),
-        exhaustMap((id) => {
+        exhaustMap((id: number) => {
           return ajax(`https://jsonplaceholder.typicode.com/posts/${id}`);
         }),
         take(5)

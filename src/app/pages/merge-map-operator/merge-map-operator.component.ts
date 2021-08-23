@@ -14,7 +14,7 @@ export class MergeMapOperatorComponent implements OnInit {
   ngOnInit(): void {
     of(1, 2, 3, 4, 5)
       .pipe(
-        mergeMap((id) => {
+        mergeMap((id: number) => {
           console.log(id);
           return ajax(`https://jsonplaceholder.typicode.com/posts/${id}`).pipe(
             map((data) => {

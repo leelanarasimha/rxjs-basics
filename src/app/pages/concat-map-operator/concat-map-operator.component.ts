@@ -14,7 +14,7 @@ export class ConcatMapOperatorComponent implements OnInit {
   ngOnInit(): void {
     of(1, 2, 3, 4)
       .pipe(
-        concatMap((id) => {
+        concatMap((id: number) => {
           console.log(id);
           return ajax(`https://jsonplaceholder.typicode.com/posts/${id}`).pipe(
             map((data) => {

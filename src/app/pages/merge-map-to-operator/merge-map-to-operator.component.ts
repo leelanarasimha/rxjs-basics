@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { of } from 'rxjs';
-import { ajax } from 'rxjs/ajax';
+import { ajax, AjaxResponse } from 'rxjs/ajax';
 import { map, mergeMapTo } from 'rxjs/operators';
 
 @Component({
@@ -15,8 +15,8 @@ export class MergeMapToOperatorComponent implements OnInit {
     of(1, 2, 3, 4, 5)
       .pipe(
         mergeMapTo(
-          ajax(`https://jsonplaceholder.typicode.com/posts/2`).pipe(
-            map((data) => {
+          ajax<string>(`https://jsonplaceholder.typicode.com/posts/2`).pipe(
+            map((data: AjaxResponse<string>) => {
               return data.response;
             })
           ),
