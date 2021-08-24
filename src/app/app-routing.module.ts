@@ -40,6 +40,7 @@ import { SwitchMapToOperatorComponent } from './pages/switch-map-to-operator/swi
 import { SubjectComponent } from './pages/subject/subject.component';
 import { ColdObservableComponent } from './pages/cold-observable/cold-observable.component';
 import { MulticastOperatorComponent } from './pages/multicast-operator/multicast-operator.component';
+import { ShareOperatorComponent } from './pages/share-operator/share-operator.component';
 
 const routes: Routes = [
   {
@@ -81,6 +82,7 @@ const routes: Routes = [
       { path: 'switchmap', component: SwitchMapOperatorComponent },
       { path: 'switchmapto', component: SwitchMapToOperatorComponent },
       { path: 'multicast', component: MulticastOperatorComponent },
+      { path: 'share', component: ShareOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
