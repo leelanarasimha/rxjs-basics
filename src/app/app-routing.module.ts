@@ -44,6 +44,7 @@ import { ShareOperatorComponent } from './pages/share-operator/share-operator.co
 import { BehaviorSubjectComponent } from './pages/behavior-subject/behavior-subject.component';
 import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.component';
 import { AsyncSubjectComponent } from './pages/async-subject/async-subject.component';
+import { VoidSubjectComponent } from './pages/void-subject/void-subject.component';
 
 const routes: Routes = [
   {
@@ -101,6 +102,7 @@ const routes: Routes = [
   { path: 'behaviorsubject', component: BehaviorSubjectComponent },
   { path: 'replaysubject', component: ReplaySubjectComponent },
   { path: 'asyncsubject', component: AsyncSubjectComponent },
+  { path: 'voidsubject', component: VoidSubjectComponent },
 ];
 
 @NgModule({
