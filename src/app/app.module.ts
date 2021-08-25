@@ -49,6 +49,7 @@ import { MulticastOperatorComponent } from './pages/multicast-operator/multicast
 import { ShareOperatorComponent } from './pages/share-operator/share-operator.component';
 import { BehaviorSubjectComponent } from './pages/behavior-subject/behavior-subject.component';
 import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.component';
+import { AsyncSubjectComponent } from './pages/async-subject/async-subject.component';
 
 @NgModule({
   declarations: [
@@ -99,6 +100,7 @@ import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.co
     ShareOperatorComponent,
     BehaviorSubjectComponent,
     ReplaySubjectComponent,
+    AsyncSubjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

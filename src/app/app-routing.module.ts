@@ -43,6 +43,7 @@ import { MulticastOperatorComponent } from './pages/multicast-operator/multicast
 import { ShareOperatorComponent } from './pages/share-operator/share-operator.component';
 import { BehaviorSubjectComponent } from './pages/behavior-subject/behavior-subject.component';
 import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.component';
+import { AsyncSubjectComponent } from './pages/async-subject/async-subject.component';
 
 const routes: Routes = [
   {
@@ -99,6 +100,7 @@ const routes: Routes = [
   { path: 'coldobservable', component: ColdObservableComponent },
   { path: 'behaviorsubject', component: BehaviorSubjectComponent },
   { path: 'replaysubject', component: ReplaySubjectComponent },
+  { path: 'asyncsubject', component: AsyncSubjectComponent },
 ];
 
 @NgModule({
