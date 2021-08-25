@@ -48,6 +48,7 @@ import { ColdObservableComponent } from './pages/cold-observable/cold-observable
 import { MulticastOperatorComponent } from './pages/multicast-operator/multicast-operator.component';
 import { ShareOperatorComponent } from './pages/share-operator/share-operator.component';
 import { BehaviorSubjectComponent } from './pages/behavior-subject/behavior-subject.component';
+import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.component';
 
 @NgModule({
   declarations: [
@@ -97,6 +98,7 @@ import { BehaviorSubjectComponent } from './pages/behavior-subject/behavior-subj
     MulticastOperatorComponent,
     ShareOperatorComponent,
     BehaviorSubjectComponent,
+    ReplaySubjectComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
