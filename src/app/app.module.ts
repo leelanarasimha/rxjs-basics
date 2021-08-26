@@ -52,6 +52,7 @@ import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.co
 import { AsyncSubjectComponent } from './pages/async-subject/async-subject.component';
 import { VoidSubjectComponent } from './pages/void-subject/void-subject.component';
 import { PublishBehaviorOperatorComponent } from './pages/publish-behavior-operator/publish-behavior-operator.component';
+import { PublishLastOperatorComponent } from './pages/publish-last-operator/publish-last-operator.component';
 
 @NgModule({
   declarations: [
@@ -105,6 +106,7 @@ import { PublishBehaviorOperatorComponent } from './pages/publish-behavior-opera
     AsyncSubjectComponent,
     VoidSubjectComponent,
     PublishBehaviorOperatorComponent,
+    PublishLastOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
