@@ -45,6 +45,7 @@ import { BehaviorSubjectComponent } from './pages/behavior-subject/behavior-subj
 import { ReplaySubjectComponent } from './pages/replay-subject/replay-subject.component';
 import { AsyncSubjectComponent } from './pages/async-subject/async-subject.component';
 import { VoidSubjectComponent } from './pages/void-subject/void-subject.component';
+import { PublishBehaviorOperatorComponent } from './pages/publish-behavior-operator/publish-behavior-operator.component';
 
 const routes: Routes = [
   {
@@ -87,6 +88,7 @@ const routes: Routes = [
       { path: 'switchmapto', component: SwitchMapToOperatorComponent },
       { path: 'multicast', component: MulticastOperatorComponent },
       { path: 'share', component: ShareOperatorComponent },
+      { path: 'publishbehavior', component: PublishBehaviorOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
