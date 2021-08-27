@@ -48,6 +48,7 @@ import { VoidSubjectComponent } from './pages/void-subject/void-subject.componen
 import { PublishBehaviorOperatorComponent } from './pages/publish-behavior-operator/publish-behavior-operator.component';
 import { PublishLastOperatorComponent } from './pages/publish-last-operator/publish-last-operator.component';
 import { PublishReplayOperatorComponent } from './pages/publish-replay-operator/publish-replay-operator.component';
+import { CatchErrorOperatorComponent } from './pages/catch-error-operator/catch-error-operator.component';
 
 const routes: Routes = [
   {
@@ -93,6 +94,7 @@ const routes: Routes = [
       { path: 'publishbehavior', component: PublishBehaviorOperatorComponent },
       { path: 'publishlast', component: PublishLastOperatorComponent },
       { path: 'publishreplay', component: PublishReplayOperatorComponent },
+      { path: 'catcherror', component: CatchErrorOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
