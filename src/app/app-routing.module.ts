@@ -49,6 +49,7 @@ import { PublishBehaviorOperatorComponent } from './pages/publish-behavior-opera
 import { PublishLastOperatorComponent } from './pages/publish-last-operator/publish-last-operator.component';
 import { PublishReplayOperatorComponent } from './pages/publish-replay-operator/publish-replay-operator.component';
 import { CatchErrorOperatorComponent } from './pages/catch-error-operator/catch-error-operator.component';
+import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.component';
 
 const routes: Routes = [
   {
@@ -95,6 +96,7 @@ const routes: Routes = [
       { path: 'publishlast', component: PublishLastOperatorComponent },
       { path: 'publishreplay', component: PublishReplayOperatorComponent },
       { path: 'catcherror', component: CatchErrorOperatorComponent },
+      { path: 'retry', component: RetryOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
