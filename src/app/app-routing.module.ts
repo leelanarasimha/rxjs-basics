@@ -50,6 +50,7 @@ import { PublishLastOperatorComponent } from './pages/publish-last-operator/publ
 import { PublishReplayOperatorComponent } from './pages/publish-replay-operator/publish-replay-operator.component';
 import { CatchErrorOperatorComponent } from './pages/catch-error-operator/catch-error-operator.component';
 import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.component';
+import { RetryWhenOperatorComponent } from './pages/retry-when-operator/retry-when-operator.component';
 
 const routes: Routes = [
   {
@@ -97,6 +98,7 @@ const routes: Routes = [
       { path: 'publishreplay', component: PublishReplayOperatorComponent },
       { path: 'catcherror', component: CatchErrorOperatorComponent },
       { path: 'retry', component: RetryOperatorComponent },
+      { path: 'retrywhen', component: RetryWhenOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,

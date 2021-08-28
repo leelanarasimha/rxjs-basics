@@ -56,6 +56,7 @@ import { PublishLastOperatorComponent } from './pages/publish-last-operator/publ
 import { PublishReplayOperatorComponent } from './pages/publish-replay-operator/publish-replay-operator.component';
 import { CatchErrorOperatorComponent } from './pages/catch-error-operator/catch-error-operator.component';
 import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.component';
+import { RetryWhenOperatorComponent } from './pages/retry-when-operator/retry-when-operator.component';
 
 @NgModule({
   declarations: [
@@ -113,6 +114,7 @@ import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.co
     PublishReplayOperatorComponent,
     CatchErrorOperatorComponent,
     RetryOperatorComponent,
+    RetryWhenOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
