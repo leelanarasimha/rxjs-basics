@@ -61,6 +61,7 @@ import { CombineLatestOperatorComponent } from './pages/combine-latest-operator/
 import { ConcatOperatorComponent } from './pages/concat-operator/concat-operator.component';
 import { ForkJoinOperatorComponent } from './pages/fork-join-operator/fork-join-operator.component';
 import { MergeOperatorComponent } from './pages/merge-operator/merge-operator.component';
+import { PartitionOperatorComponent } from './pages/partition-operator/partition-operator.component';
 
 @NgModule({
   declarations: [
@@ -123,6 +124,7 @@ import { MergeOperatorComponent } from './pages/merge-operator/merge-operator.co
     ConcatOperatorComponent,
     ForkJoinOperatorComponent,
     MergeOperatorComponent,
+    PartitionOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
