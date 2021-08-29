@@ -57,6 +57,7 @@ import { ForkJoinOperatorComponent } from './pages/fork-join-operator/fork-join-
 import { MergeOperatorComponent } from './pages/merge-operator/merge-operator.component';
 import { PartitionOperatorComponent } from './pages/partition-operator/partition-operator.component';
 import { RaceOperatorComponent } from './pages/race-operator/race-operator.component';
+import { ZipOperatorComponent } from './pages/zip-operator/zip-operator.component';
 
 const routes: Routes = [
   {
@@ -111,6 +112,7 @@ const routes: Routes = [
       { path: 'merge', component: MergeOperatorComponent },
       { path: 'partition', component: PartitionOperatorComponent },
       { path: 'race', component: RaceOperatorComponent },
+      { path: 'zip', component: ZipOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
