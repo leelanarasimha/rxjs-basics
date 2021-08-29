@@ -53,6 +53,7 @@ import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.co
 import { RetryWhenOperatorComponent } from './pages/retry-when-operator/retry-when-operator.component';
 import { CombineLatestOperatorComponent } from './pages/combine-latest-operator/combine-latest-operator.component';
 import { ConcatOperatorComponent } from './pages/concat-operator/concat-operator.component';
+import { ForkJoinOperatorComponent } from './pages/fork-join-operator/fork-join-operator.component';
 
 const routes: Routes = [
   {
@@ -103,6 +104,7 @@ const routes: Routes = [
       { path: 'retrywhen', component: RetryWhenOperatorComponent },
       { path: 'combinelatest', component: CombineLatestOperatorComponent },
       { path: 'concat', component: ConcatOperatorComponent },
+      { path: 'forkjoin', component: ForkJoinOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
