@@ -54,6 +54,7 @@ import { RetryWhenOperatorComponent } from './pages/retry-when-operator/retry-wh
 import { CombineLatestOperatorComponent } from './pages/combine-latest-operator/combine-latest-operator.component';
 import { ConcatOperatorComponent } from './pages/concat-operator/concat-operator.component';
 import { ForkJoinOperatorComponent } from './pages/fork-join-operator/fork-join-operator.component';
+import { MergeOperatorComponent } from './pages/merge-operator/merge-operator.component';
 
 const routes: Routes = [
   {
@@ -105,6 +106,7 @@ const routes: Routes = [
       { path: 'combinelatest', component: CombineLatestOperatorComponent },
       { path: 'concat', component: ConcatOperatorComponent },
       { path: 'forkjoin', component: ForkJoinOperatorComponent },
+      { path: 'merge', component: MergeOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
