@@ -58,6 +58,7 @@ import { CatchErrorOperatorComponent } from './pages/catch-error-operator/catch-
 import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.component';
 import { RetryWhenOperatorComponent } from './pages/retry-when-operator/retry-when-operator.component';
 import { CombineLatestOperatorComponent } from './pages/combine-latest-operator/combine-latest-operator.component';
+import { ConcatOperatorComponent } from './pages/concat-operator/concat-operator.component';
 
 @NgModule({
   declarations: [
@@ -117,6 +118,7 @@ import { CombineLatestOperatorComponent } from './pages/combine-latest-operator/
     RetryOperatorComponent,
     RetryWhenOperatorComponent,
     CombineLatestOperatorComponent,
+    ConcatOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

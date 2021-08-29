@@ -52,6 +52,7 @@ import { CatchErrorOperatorComponent } from './pages/catch-error-operator/catch-
 import { RetryOperatorComponent } from './pages/retry-operator/retry-operator.component';
 import { RetryWhenOperatorComponent } from './pages/retry-when-operator/retry-when-operator.component';
 import { CombineLatestOperatorComponent } from './pages/combine-latest-operator/combine-latest-operator.component';
+import { ConcatOperatorComponent } from './pages/concat-operator/concat-operator.component';
 
 const routes: Routes = [
   {
@@ -101,6 +102,7 @@ const routes: Routes = [
       { path: 'retry', component: RetryOperatorComponent },
       { path: 'retrywhen', component: RetryWhenOperatorComponent },
       { path: 'combinelatest', component: CombineLatestOperatorComponent },
+      { path: 'concat', component: ConcatOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
