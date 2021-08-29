@@ -56,6 +56,7 @@ import { ConcatOperatorComponent } from './pages/concat-operator/concat-operator
 import { ForkJoinOperatorComponent } from './pages/fork-join-operator/fork-join-operator.component';
 import { MergeOperatorComponent } from './pages/merge-operator/merge-operator.component';
 import { PartitionOperatorComponent } from './pages/partition-operator/partition-operator.component';
+import { RaceOperatorComponent } from './pages/race-operator/race-operator.component';
 
 const routes: Routes = [
   {
@@ -109,6 +110,7 @@ const routes: Routes = [
       { path: 'forkjoin', component: ForkJoinOperatorComponent },
       { path: 'merge', component: MergeOperatorComponent },
       { path: 'partition', component: PartitionOperatorComponent },
+      { path: 'race', component: RaceOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
