@@ -58,6 +58,7 @@ import { MergeOperatorComponent } from './pages/merge-operator/merge-operator.co
 import { PartitionOperatorComponent } from './pages/partition-operator/partition-operator.component';
 import { RaceOperatorComponent } from './pages/race-operator/race-operator.component';
 import { ZipOperatorComponent } from './pages/zip-operator/zip-operator.component';
+import { SchedulersComponent } from './pages/schedulers/schedulers.component';
 
 const routes: Routes = [
   {
@@ -129,6 +130,7 @@ const routes: Routes = [
   { path: 'replaysubject', component: ReplaySubjectComponent },
   { path: 'asyncsubject', component: AsyncSubjectComponent },
   { path: 'voidsubject', component: VoidSubjectComponent },
+  { path: 'scheduler', component: SchedulersComponent },
 ];
 
 @NgModule({
