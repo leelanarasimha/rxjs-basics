@@ -59,6 +59,7 @@ import { PartitionOperatorComponent } from './pages/partition-operator/partition
 import { RaceOperatorComponent } from './pages/race-operator/race-operator.component';
 import { ZipOperatorComponent } from './pages/zip-operator/zip-operator.component';
 import { SchedulersComponent } from './pages/schedulers/schedulers.component';
+import { DeferOperatorComponent } from './pages/defer-operator/defer-operator.component';
 
 const routes: Routes = [
   {
@@ -114,6 +115,7 @@ const routes: Routes = [
       { path: 'partition', component: PartitionOperatorComponent },
       { path: 'race', component: RaceOperatorComponent },
       { path: 'zip', component: ZipOperatorComponent },
+      { path: 'defer', component: DeferOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,

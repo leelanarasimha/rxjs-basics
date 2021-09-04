@@ -65,6 +65,7 @@ import { PartitionOperatorComponent } from './pages/partition-operator/partition
 import { RaceOperatorComponent } from './pages/race-operator/race-operator.component';
 import { ZipOperatorComponent } from './pages/zip-operator/zip-operator.component';
 import { SchedulersComponent } from './pages/schedulers/schedulers.component';
+import { DeferOperatorComponent } from './pages/defer-operator/defer-operator.component';
 
 @NgModule({
   declarations: [
@@ -131,6 +132,7 @@ import { SchedulersComponent } from './pages/schedulers/schedulers.component';
     RaceOperatorComponent,
     ZipOperatorComponent,
     SchedulersComponent,
+    DeferOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
