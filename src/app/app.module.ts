@@ -66,6 +66,7 @@ import { RaceOperatorComponent } from './pages/race-operator/race-operator.compo
 import { ZipOperatorComponent } from './pages/zip-operator/zip-operator.component';
 import { SchedulersComponent } from './pages/schedulers/schedulers.component';
 import { DeferOperatorComponent } from './pages/defer-operator/defer-operator.component';
+import { RangeOperatorComponent } from './pages/range-operator/range-operator.component';
 
 @NgModule({
   declarations: [
@@ -133,6 +134,7 @@ import { DeferOperatorComponent } from './pages/defer-operator/defer-operator.co
     ZipOperatorComponent,
     SchedulersComponent,
     DeferOperatorComponent,
+    RangeOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
