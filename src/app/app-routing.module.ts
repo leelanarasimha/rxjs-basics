@@ -61,6 +61,7 @@ import { ZipOperatorComponent } from './pages/zip-operator/zip-operator.componen
 import { SchedulersComponent } from './pages/schedulers/schedulers.component';
 import { DeferOperatorComponent } from './pages/defer-operator/defer-operator.component';
 import { RangeOperatorComponent } from './pages/range-operator/range-operator.component';
+import { GenerateOperatorComponent } from './pages/generate-operator/generate-operator.component';
 
 const routes: Routes = [
   {
@@ -118,6 +119,7 @@ const routes: Routes = [
       { path: 'zip', component: ZipOperatorComponent },
       { path: 'defer', component: DeferOperatorComponent },
       { path: 'range', component: RangeOperatorComponent },
+      { path: 'generate', component: GenerateOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
