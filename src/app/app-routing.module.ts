@@ -62,6 +62,7 @@ import { SchedulersComponent } from './pages/schedulers/schedulers.component';
 import { DeferOperatorComponent } from './pages/defer-operator/defer-operator.component';
 import { RangeOperatorComponent } from './pages/range-operator/range-operator.component';
 import { GenerateOperatorComponent } from './pages/generate-operator/generate-operator.component';
+import { TimerOperatorComponent } from './pages/timer-operator/timer-operator.component';
 
 const routes: Routes = [
   {
@@ -120,6 +121,7 @@ const routes: Routes = [
       { path: 'defer', component: DeferOperatorComponent },
       { path: 'range', component: RangeOperatorComponent },
       { path: 'generate', component: GenerateOperatorComponent },
+      { path: 'timer', component: TimerOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
