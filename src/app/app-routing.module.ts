@@ -65,6 +65,7 @@ import { GenerateOperatorComponent } from './pages/generate-operator/generate-op
 import { TimerOperatorComponent } from './pages/timer-operator/timer-operator.component';
 import { ScanOperatorComponent } from './pages/scan-operator/scan-operator.component';
 import { CountOperatorComponent } from './pages/count-operator/count-operator.component';
+import { MaxOperatorComponent } from './pages/max-operator/max-operator.component';
 
 const routes: Routes = [
   {
@@ -126,6 +127,7 @@ const routes: Routes = [
       { path: 'timer', component: TimerOperatorComponent },
       { path: 'scan', component: ScanOperatorComponent },
       { path: 'count', component: CountOperatorComponent },
+      { path: 'max', component: MaxOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
