@@ -69,6 +69,7 @@ import { MaxOperatorComponent } from './pages/max-operator/max-operator.componen
 import { MinOperatorComponent } from './pages/min-operator/min-operator.component';
 import { ReduceOperatorComponent } from './pages/reduce-operator/reduce-operator.component';
 import { IsEmptyOperatorComponent } from './pages/is-empty-operator/is-empty-operator.component';
+import { FindIndexOperatorComponent } from './pages/find-index-operator/find-index-operator.component';
 
 const routes: Routes = [
   {
@@ -134,6 +135,7 @@ const routes: Routes = [
       { path: 'min', component: MinOperatorComponent },
       { path: 'reduce', component: ReduceOperatorComponent },
       { path: 'isempty', component: IsEmptyOperatorComponent },
+      { path: 'findindex', component: FindIndexOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
