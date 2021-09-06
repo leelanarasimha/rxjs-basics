@@ -70,6 +70,7 @@ import { MinOperatorComponent } from './pages/min-operator/min-operator.componen
 import { ReduceOperatorComponent } from './pages/reduce-operator/reduce-operator.component';
 import { IsEmptyOperatorComponent } from './pages/is-empty-operator/is-empty-operator.component';
 import { FindIndexOperatorComponent } from './pages/find-index-operator/find-index-operator.component';
+import { FindOperatorComponent } from './pages/find-operator/find-operator.component';
 
 const routes: Routes = [
   {
@@ -136,6 +137,7 @@ const routes: Routes = [
       { path: 'reduce', component: ReduceOperatorComponent },
       { path: 'isempty', component: IsEmptyOperatorComponent },
       { path: 'findindex', component: FindIndexOperatorComponent },
+      { path: 'find', component: FindOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
