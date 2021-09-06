@@ -73,6 +73,7 @@ import { ScanOperatorComponent } from './pages/scan-operator/scan-operator.compo
 import { CountOperatorComponent } from './pages/count-operator/count-operator.component';
 import { MaxOperatorComponent } from './pages/max-operator/max-operator.component';
 import { MinOperatorComponent } from './pages/min-operator/min-operator.component';
+import { ReduceOperatorComponent } from './pages/reduce-operator/reduce-operator.component';
 
 @NgModule({
   declarations: [
@@ -147,6 +148,7 @@ import { MinOperatorComponent } from './pages/min-operator/min-operator.componen
     CountOperatorComponent,
     MaxOperatorComponent,
     MinOperatorComponent,
+    ReduceOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
