@@ -77,6 +77,7 @@ import { ReduceOperatorComponent } from './pages/reduce-operator/reduce-operator
 import { IsEmptyOperatorComponent } from './pages/is-empty-operator/is-empty-operator.component';
 import { FindIndexOperatorComponent } from './pages/find-index-operator/find-index-operator.component';
 import { FindOperatorComponent } from './pages/find-operator/find-operator.component';
+import { EveryOperatorComponent } from './pages/every-operator/every-operator.component';
 
 @NgModule({
   declarations: [
@@ -155,6 +156,7 @@ import { FindOperatorComponent } from './pages/find-operator/find-operator.compo
     IsEmptyOperatorComponent,
     FindIndexOperatorComponent,
     FindOperatorComponent,
+    EveryOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
