@@ -79,6 +79,7 @@ import { FindIndexOperatorComponent } from './pages/find-index-operator/find-ind
 import { FindOperatorComponent } from './pages/find-operator/find-operator.component';
 import { EveryOperatorComponent } from './pages/every-operator/every-operator.component';
 import { DefaultIfEmptyOperatorComponent } from './pages/default-if-empty-operator/default-if-empty-operator.component';
+import { ToArrayOperatorComponent } from './pages/to-array-operator/to-array-operator.component';
 
 @NgModule({
   declarations: [
@@ -159,6 +160,7 @@ import { DefaultIfEmptyOperatorComponent } from './pages/default-if-empty-operat
     FindOperatorComponent,
     EveryOperatorComponent,
     DefaultIfEmptyOperatorComponent,
+    ToArrayOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

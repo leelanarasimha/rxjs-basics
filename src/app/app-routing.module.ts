@@ -73,6 +73,7 @@ import { FindIndexOperatorComponent } from './pages/find-index-operator/find-ind
 import { FindOperatorComponent } from './pages/find-operator/find-operator.component';
 import { EveryOperatorComponent } from './pages/every-operator/every-operator.component';
 import { DefaultIfEmptyOperatorComponent } from './pages/default-if-empty-operator/default-if-empty-operator.component';
+import { ToArrayOperatorComponent } from './pages/to-array-operator/to-array-operator.component';
 
 const routes: Routes = [
   {
@@ -142,6 +143,7 @@ const routes: Routes = [
       { path: 'find', component: FindOperatorComponent },
       { path: 'every', component: EveryOperatorComponent },
       { path: 'defaultifempty', component: DefaultIfEmptyOperatorComponent },
+      { path: 'toarray', component: ToArrayOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
