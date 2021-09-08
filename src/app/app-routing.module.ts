@@ -72,6 +72,7 @@ import { IsEmptyOperatorComponent } from './pages/is-empty-operator/is-empty-ope
 import { FindIndexOperatorComponent } from './pages/find-index-operator/find-index-operator.component';
 import { FindOperatorComponent } from './pages/find-operator/find-operator.component';
 import { EveryOperatorComponent } from './pages/every-operator/every-operator.component';
+import { DefaultIfEmptyOperatorComponent } from './pages/default-if-empty-operator/default-if-empty-operator.component';
 
 const routes: Routes = [
   {
@@ -140,6 +141,7 @@ const routes: Routes = [
       { path: 'findindex', component: FindIndexOperatorComponent },
       { path: 'find', component: FindOperatorComponent },
       { path: 'every', component: EveryOperatorComponent },
+      { path: 'defaultifempty', component: DefaultIfEmptyOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
