@@ -80,6 +80,7 @@ import { FindOperatorComponent } from './pages/find-operator/find-operator.compo
 import { EveryOperatorComponent } from './pages/every-operator/every-operator.component';
 import { DefaultIfEmptyOperatorComponent } from './pages/default-if-empty-operator/default-if-empty-operator.component';
 import { ToArrayOperatorComponent } from './pages/to-array-operator/to-array-operator.component';
+import { SubscribeOnOperatorComponent } from './pages/subscribe-on-operator/subscribe-on-operator.component';
 
 @NgModule({
   declarations: [
@@ -161,6 +162,7 @@ import { ToArrayOperatorComponent } from './pages/to-array-operator/to-array-ope
     EveryOperatorComponent,
     DefaultIfEmptyOperatorComponent,
     ToArrayOperatorComponent,
+    SubscribeOnOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
