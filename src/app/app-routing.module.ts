@@ -79,6 +79,7 @@ import { ObserveOnOperatorComponent } from './pages/observe-on-operator/observe-
 import { MaterializeOperatorComponent } from './pages/materialize-operator/materialize-operator.component';
 import { DematerializeOperatorComponent } from './pages/dematerialize-operator/dematerialize-operator.component';
 import { DelayOperatorComponent } from './pages/delay-operator/delay-operator.component';
+import { CombineLatestAllOperatorComponent } from './pages/combine-latest-all-operator/combine-latest-all-operator.component';
 
 const routes: Routes = [
   {
@@ -153,6 +154,7 @@ const routes: Routes = [
       { path: 'materialize', component: MaterializeOperatorComponent },
       { path: 'dematerialize', component: DematerializeOperatorComponent },
       { path: 'delay', component: DelayOperatorComponent },
+      { path: 'combinelatestall', component: CombineLatestAllOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
