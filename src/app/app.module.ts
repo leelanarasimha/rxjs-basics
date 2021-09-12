@@ -84,6 +84,7 @@ import { SubscribeOnOperatorComponent } from './pages/subscribe-on-operator/subs
 import { ObserveOnOperatorComponent } from './pages/observe-on-operator/observe-on-operator.component';
 import { MaterializeOperatorComponent } from './pages/materialize-operator/materialize-operator.component';
 import { DematerializeOperatorComponent } from './pages/dematerialize-operator/dematerialize-operator.component';
+import { DelayOperatorComponent } from './pages/delay-operator/delay-operator.component';
 
 @NgModule({
   declarations: [
@@ -169,6 +170,7 @@ import { DematerializeOperatorComponent } from './pages/dematerialize-operator/d
     ObserveOnOperatorComponent,
     MaterializeOperatorComponent,
     DematerializeOperatorComponent,
+    DelayOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
