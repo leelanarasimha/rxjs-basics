@@ -81,6 +81,7 @@ import { DematerializeOperatorComponent } from './pages/dematerialize-operator/d
 import { DelayOperatorComponent } from './pages/delay-operator/delay-operator.component';
 import { CombineLatestAllOperatorComponent } from './pages/combine-latest-all-operator/combine-latest-all-operator.component';
 import { ConcatAllOperatorComponent } from './pages/concat-all-operator/concat-all-operator.component';
+import { ExhaustAllOperatorComponent } from './pages/exhaust-all-operator/exhaust-all-operator.component';
 
 const routes: Routes = [
   {
@@ -157,6 +158,7 @@ const routes: Routes = [
       { path: 'delay', component: DelayOperatorComponent },
       { path: 'combinelatestall', component: CombineLatestAllOperatorComponent },
       { path: 'concatall', component: ConcatAllOperatorComponent },
+      { path: 'exhaustall', component: ExhaustAllOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
