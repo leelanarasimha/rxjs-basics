@@ -84,6 +84,7 @@ import { ConcatAllOperatorComponent } from './pages/concat-all-operator/concat-a
 import { ExhaustAllOperatorComponent } from './pages/exhaust-all-operator/exhaust-all-operator.component';
 import { MergeAllOperatorComponent } from './pages/merge-all-operator/merge-all-operator.component';
 import { SwitchAllOperatorComponent } from './pages/switch-all-operator/switch-all-operator.component';
+import { StartWithOperatorComponent } from './pages/start-with-operator/start-with-operator.component';
 
 const routes: Routes = [
   {
@@ -158,6 +159,7 @@ const routes: Routes = [
       { path: 'materialize', component: MaterializeOperatorComponent },
       { path: 'dematerialize', component: DematerializeOperatorComponent },
       { path: 'delay', component: DelayOperatorComponent },
+      { path: 'startwith', component: StartWithOperatorComponent },
       {
         path: 'combinelatestall',
         component: CombineLatestAllOperatorComponent,
