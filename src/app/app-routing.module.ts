@@ -83,6 +83,7 @@ import { CombineLatestAllOperatorComponent } from './pages/combine-latest-all-op
 import { ConcatAllOperatorComponent } from './pages/concat-all-operator/concat-all-operator.component';
 import { ExhaustAllOperatorComponent } from './pages/exhaust-all-operator/exhaust-all-operator.component';
 import { MergeAllOperatorComponent } from './pages/merge-all-operator/merge-all-operator.component';
+import { SwitchAllOperatorComponent } from './pages/switch-all-operator/switch-all-operator.component';
 
 const routes: Routes = [
   {
@@ -157,10 +158,14 @@ const routes: Routes = [
       { path: 'materialize', component: MaterializeOperatorComponent },
       { path: 'dematerialize', component: DematerializeOperatorComponent },
       { path: 'delay', component: DelayOperatorComponent },
-      { path: 'combinelatestall', component: CombineLatestAllOperatorComponent },
+      {
+        path: 'combinelatestall',
+        component: CombineLatestAllOperatorComponent,
+      },
       { path: 'concatall', component: ConcatAllOperatorComponent },
       { path: 'exhaustall', component: ExhaustAllOperatorComponent },
       { path: 'mergeall', component: MergeAllOperatorComponent },
+      { path: 'switchall', component: SwitchAllOperatorComponent },
       {
         path: 'distinctuntilchanged',
         component: DistinctUntilChangedOperatorComponent,
