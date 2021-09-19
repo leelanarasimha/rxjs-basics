@@ -90,6 +90,7 @@ import { GroupByOperatorComponent } from './pages/group-by-operator/group-by-ope
 import { PairwiseOperatorComponent } from './pages/pairwise-operator/pairwise-operator.component';
 import { WindowOperatorComponent } from './pages/window-operator/window-operator.component';
 import { WindowCountOperatorComponent } from './pages/window-count-operator/window-count-operator.component';
+import { WindowTimeOperatorComponent } from './pages/window-time-operator/window-time-operator.component';
 
 const routes: Routes = [
   {
@@ -167,6 +168,7 @@ const routes: Routes = [
       { path: 'startwith', component: StartWithOperatorComponent },
       { path: 'window', component: WindowOperatorComponent },
       { path: 'windowcount', component: WindowCountOperatorComponent },
+      { path: 'windowtime', component: WindowTimeOperatorComponent },
       {
         path: 'combinelatestall',
         component: CombineLatestAllOperatorComponent,

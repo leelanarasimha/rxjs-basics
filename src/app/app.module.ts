@@ -96,6 +96,7 @@ import { GroupByOperatorComponent } from './pages/group-by-operator/group-by-ope
 import { PairwiseOperatorComponent } from './pages/pairwise-operator/pairwise-operator.component';
 import { WindowOperatorComponent } from './pages/window-operator/window-operator.component';
 import { WindowCountOperatorComponent } from './pages/window-count-operator/window-count-operator.component';
+import { WindowTimeOperatorComponent } from './pages/window-time-operator/window-time-operator.component';
 
 @NgModule({
   declarations: [
@@ -193,6 +194,7 @@ import { WindowCountOperatorComponent } from './pages/window-count-operator/wind
     PairwiseOperatorComponent,
     WindowOperatorComponent,
     WindowCountOperatorComponent,
+    WindowTimeOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
