@@ -95,6 +95,7 @@ import { WithLatestFromOperatorComponent } from './pages/with-latest-from-operat
 import { GroupByOperatorComponent } from './pages/group-by-operator/group-by-operator.component';
 import { PairwiseOperatorComponent } from './pages/pairwise-operator/pairwise-operator.component';
 import { WindowOperatorComponent } from './pages/window-operator/window-operator.component';
+import { WindowCountOperatorComponent } from './pages/window-count-operator/window-count-operator.component';
 
 @NgModule({
   declarations: [
@@ -191,6 +192,7 @@ import { WindowOperatorComponent } from './pages/window-operator/window-operator
     GroupByOperatorComponent,
     PairwiseOperatorComponent,
     WindowOperatorComponent,
+    WindowCountOperatorComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

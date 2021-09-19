@@ -89,6 +89,7 @@ import { WithLatestFromOperatorComponent } from './pages/with-latest-from-operat
 import { GroupByOperatorComponent } from './pages/group-by-operator/group-by-operator.component';
 import { PairwiseOperatorComponent } from './pages/pairwise-operator/pairwise-operator.component';
 import { WindowOperatorComponent } from './pages/window-operator/window-operator.component';
+import { WindowCountOperatorComponent } from './pages/window-count-operator/window-count-operator.component';
 
 const routes: Routes = [
   {
@@ -165,6 +166,7 @@ const routes: Routes = [
       { path: 'delay', component: DelayOperatorComponent },
       { path: 'startwith', component: StartWithOperatorComponent },
       { path: 'window', component: WindowOperatorComponent },
+      { path: 'windowcount', component: WindowCountOperatorComponent },
       {
         path: 'combinelatestall',
         component: CombineLatestAllOperatorComponent,
