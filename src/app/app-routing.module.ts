@@ -91,6 +91,7 @@ import { PairwiseOperatorComponent } from './pages/pairwise-operator/pairwise-op
 import { WindowOperatorComponent } from './pages/window-operator/window-operator.component';
 import { WindowCountOperatorComponent } from './pages/window-count-operator/window-count-operator.component';
 import { WindowTimeOperatorComponent } from './pages/window-time-operator/window-time-operator.component';
+import { WindowToggleOperatorComponent } from './pages/window-toggle-operator/window-toggle-operator.component';
 
 const routes: Routes = [
   {
@@ -169,6 +170,7 @@ const routes: Routes = [
       { path: 'window', component: WindowOperatorComponent },
       { path: 'windowcount', component: WindowCountOperatorComponent },
       { path: 'windowtime', component: WindowTimeOperatorComponent },
+      { path: 'windowtoggle', component: WindowToggleOperatorComponent },
       {
         path: 'combinelatestall',
         component: CombineLatestAllOperatorComponent,
