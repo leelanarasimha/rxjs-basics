@@ -93,6 +93,7 @@ import { WindowCountOperatorComponent } from './pages/window-count-operator/wind
 import { WindowTimeOperatorComponent } from './pages/window-time-operator/window-time-operator.component';
 import { WindowToggleOperatorComponent } from './pages/window-toggle-operator/window-toggle-operator.component';
 import { WindowWhenOperatorComponent } from './pages/window-when-operator/window-when-operator.component';
+import { MergeComponentComponent } from './pages/merge-component/merge-component.component';
 
 const routes: Routes = [
   {
@@ -201,6 +202,7 @@ const routes: Routes = [
   { path: 'asyncsubject', component: AsyncSubjectComponent },
   { path: 'voidsubject', component: VoidSubjectComponent },
   { path: 'scheduler', component: SchedulersComponent },
+  { path: 'merge', component: MergeComponentComponent },
 ];
 
 @NgModule({
