@@ -100,6 +100,7 @@ import { WindowTimeOperatorComponent } from './pages/window-time-operator/window
 import { WindowToggleOperatorComponent } from './pages/window-toggle-operator/window-toggle-operator.component';
 import { WindowWhenOperatorComponent } from './pages/window-when-operator/window-when-operator.component';
 import { MergeComponentComponent } from './pages/merge-component/merge-component.component';
+import { ConcatComponentComponent } from './pages/concat-component/concat-component.component';
 
 @NgModule({
   declarations: [
@@ -201,6 +202,7 @@ import { MergeComponentComponent } from './pages/merge-component/merge-component
     WindowToggleOperatorComponent,
     WindowWhenOperatorComponent,
     MergeComponentComponent,
+    ConcatComponentComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

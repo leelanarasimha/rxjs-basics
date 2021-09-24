@@ -94,6 +94,7 @@ import { WindowTimeOperatorComponent } from './pages/window-time-operator/window
 import { WindowToggleOperatorComponent } from './pages/window-toggle-operator/window-toggle-operator.component';
 import { WindowWhenOperatorComponent } from './pages/window-when-operator/window-when-operator.component';
 import { MergeComponentComponent } from './pages/merge-component/merge-component.component';
+import { ConcatComponentComponent } from './pages/concat-component/concat-component.component';
 
 const routes: Routes = [
   {
@@ -203,6 +204,7 @@ const routes: Routes = [
   { path: 'voidsubject', component: VoidSubjectComponent },
   { path: 'scheduler', component: SchedulersComponent },
   { path: 'merge', component: MergeComponentComponent },
+  { path: 'concat', component: ConcatComponentComponent },
 ];
 
 @NgModule({
