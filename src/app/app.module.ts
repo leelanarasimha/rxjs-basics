@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -101,6 +102,7 @@ import { WindowToggleOperatorComponent } from './pages/window-toggle-operator/wi
 import { WindowWhenOperatorComponent } from './pages/window-when-operator/window-when-operator.component';
 import { MergeComponentComponent } from './pages/merge-component/merge-component.component';
 import { ConcatComponentComponent } from './pages/concat-component/concat-component.component';
+import { MergeMapComponentComponent } from './pages/merge-map-component/merge-map-component.component';
 
 @NgModule({
   declarations: [
@@ -203,8 +205,9 @@ import { ConcatComponentComponent } from './pages/concat-component/concat-compon
     WindowWhenOperatorComponent,
     MergeComponentComponent,
     ConcatComponentComponent,
+    MergeMapComponentComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
